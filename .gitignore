@@ -1,0 +1,29 @@
+# Secrets and API Keys
+.env
+*.env
+
+# Python Caches & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Binaries & Archives
+*.zip
+*.tar.gz
+*.exe
+nuclei
+
+# Frontend Dependencies and Build Outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE and OS Files
+.DS_Store
+.vscode/
